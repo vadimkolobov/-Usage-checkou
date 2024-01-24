@@ -1,0 +1,6 @@
+  case "checkout":
+    if len(commandParts) > 1 {
+     repo.checkout(commandParts[1])
+    } else {
+     fmt.Println("Invalid checkout command. Usage: checkout <branch>")
+    }
